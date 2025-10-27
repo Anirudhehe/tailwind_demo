@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className='logo'>Ragda</div>
       <div className='links'>
         {links.map((link,idx)=><a className='link-items' key={link.title} href={link.url}>{link.title}</a>)}
-        <button className='btn'><p className='text-shadow'>Start Trial</p></button>
+        <button className='btn'>Start Trial</button>
       </div>
     </div>
   )
